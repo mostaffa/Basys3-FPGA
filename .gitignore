@@ -1,0 +1,19 @@
+# Agent Instructions
+tutor_instructions.md
+
+# Xilinx / AMD Vivado specific
+*.jou
+*.log
+*.str
+*.pb
+.Xil/
+*.wdb
+*.wcfg
+*.cache/
+*.hw/
+*.sim/
+
+# Python / Cocotb testbenches
+__pycache__/
+*.pyc
+sim_build/
