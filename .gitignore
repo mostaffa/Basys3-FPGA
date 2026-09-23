@@ -17,3 +17,9 @@ tutor_instructions.md
 __pycache__/
 *.pyc
 sim_build/
+
+# Icarus Verilog / Simulation
+*.vvp
+*.vcd
+
+*.out

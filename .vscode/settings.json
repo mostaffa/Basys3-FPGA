@@ -1,0 +1,15 @@
+{
+        // --- SystemVerilog Settings ---
+        "verilog.linting.linter": "verilator",
+        // -Wall turns on all warnings. -Wno-DECLFILENAME prevents Verilator from complaining 
+        // if your module name doesn't exactly match the file name (useful during scratchpad dev).
+        "verilog.linting.verilator.arguments": "-sv -Wall -Wno-DECLFILENAME",
+        "verilog.linting.runAtFileLocation": true,
+
+        // --- Python (Cocotb) Settings ---
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+        "[python]": {
+            "editor.defaultFormatter": "charliermarsh.ruff",
+            "editor.formatOnSave": true
+        }
+    }
